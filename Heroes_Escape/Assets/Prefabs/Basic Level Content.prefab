@@ -18407,6 +18407,7 @@ MonoBehaviour:
   restartBut: {fileID: 5746277080048982768}
   restartBut2: {fileID: 4287525734147078137}
   deathAudioSourceController: {fileID: 9038259790941727433}
+  Ads: {fileID: 4755632977215376057}
 --- !u!1 &5746277080048982768
 GameObject:
   m_ObjectHideFlags: 0

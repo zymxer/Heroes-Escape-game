@@ -21,15 +21,16 @@ public class Start_Death_Screen : MonoBehaviour
     private GameObject restartBut2;
     [SerializeField]
     private DeathAudioSourceController deathAudioSourceController;
+    [SerializeField]
     private AudioSource Ads;
-    private void Start()
+    private void Awake()
     {
-        Ads = gameObject.GetComponent<AudioSource>();
         Act(false);
         shirma.gameObject.SetActive(false);
     }
     public void Activate()
     {
+        gameObject.SetActive(true);
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("enemy");
         for (int i = 0; i < enemies.Length; i++)
         {
